@@ -1,38 +1,103 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.textCenter {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.alignRight {
+  float: inline-end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flexRow {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
-.App-link {
-  color: #61dafb;
+.margin2 {
+  margin: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.marginLeft25 {
+  margin-left: 2.5%;
+}
+
+.marginLeft45 {
+  margin-left: 45%;
+}
+
+.padding1 {
+  padding: 1.25%;
+}
+
+.width13 {
+  width: 13%;
+  height: 20vh;
+}
+
+.width95 {
+  width: 95%;
+}
+
+.boxShadow {
+  box-shadow: 0 3px 16px -4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.fontSize4 {
+  font-size: 4rem;
+}
+
+.fontSize3 {
+  font-size: 2.8rem;
+}
+
+.fontSize13 {
+  font-size: 13px;
+}
+
+.fontSize15 {
+  font-size: 15px;
+}
+
+.fontSize20 {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.viewAllBtn {
+  border: none;
+  border-radius: 3px;
+  background: blueviolet;
+  color: #fff;
+  padding: 4px 12px 4px 12px;
+}
+
+.backBtn {
+  border: none;
+  background: #fff;
+  font-size: 35px;
+}
+
+.blueColor {
+  color: blueviolet;
+}
+
+.orangeColor {
+  color: orange;
+}
+
+.greenColor {
+  color: green;
+}
+
+.greyColor {
+  color: grey;
 }
